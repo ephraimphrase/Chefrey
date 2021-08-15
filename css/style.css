@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Mint Grotesk";
+    src: url(../fonts/MintGroteskRegularTrial.otf);
+}
+
+
+body{
+    background-image: url(../images/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Mint Grotesk';
+}
+
+.container{
+    top: 470px;
+    position: absolute;
+    color: #fff;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 46.8px;
+    position: absolute;
+    left: 20px;
+    width: 160px;
+    height: 47px;
+}
+
+p{
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 23.4px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 262px;
+    height: 23px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 200px;
+    /* height: 55px; */
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    background: #FF4242;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+i{
+    background: #fff;
+    color: #FF4242;
+    width: 45px;
+    height: 45px;
+    font-size: 40px;
+    border-radius: 28px;
+}

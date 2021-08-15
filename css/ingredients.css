@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Mint Grotesk";
+    src: url(../fonts/MintGroteskRegularTrial.otf);
+}
+
+body{
+    font-family: 'Mint Grotesk';
+}
+
+nav{
+    height: 50px;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description__image img{
+    border-radius: 16px;
+}
+
+.description__text h3{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    width: 179px;
+    height: 46px;
+}
+
+.description__text p{
+    font-weight: normal;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 16px;
+    width: 327px;
+    height: 48px;
+}
+
+.ingredients__item{
+    display: flex;
+    justify-content: space-between;
+    width: 316px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F8F7F8;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.procedures p{
+    width: 327px;
+    height: 112px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bxs-left-arrow-alt{
+    font-size: 50px;
+    color: #FF4242;
+    position: relative;
+    top: 30px;
+    right: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.bxs-share-alt{
+    position: relative;
+    left: 40%;
+    top: 17px;
+    background: #FF4242;
+    color: #F8F7F8;
+    border-radius: 15px;
+    font-size: 13px;
+    width: 23px;
+    height: 23px;
+    padding: 5px;
+}
