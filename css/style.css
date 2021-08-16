@@ -14,7 +14,8 @@ body{
 
 .container{
     top: 470px;
-    position: absolute;
+    position: relative;
+    top: 400px;
     color: #fff;
 }
 
@@ -23,9 +24,9 @@ h2{
     font-weight: 900;
     font-style: normal;
     line-height: 46.8px;
-    position: absolute;
+    /* position: absolute;
     left: 20px;
-    width: 160px;
+    width: 160px; */
     height: 47px;
 }
 
@@ -34,23 +35,24 @@ p{
     font-size: 18px;
     font-style: normal;
     line-height: 23.4px;
-    position: absolute;
+    /* position: absolute;
     top: 60px;
     left: 20px;
-    width: 262px;
+    width: 262px; */
     height: 23px;
 }
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 .btn{
     width: 200px;
     /* height: 55px; */
-    position: absolute;
+    /* position: absolute;
     left: 20px;
-    top: 120px;
+    top: 120px; */
     display: flex;
     justify-content: space-evenly;
     border-radius: 100px;

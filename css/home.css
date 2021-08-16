@@ -8,7 +8,7 @@ body{
 }
 
 nav{
-    height: 50px;
+    height: 30px;
 }
 
 main{
@@ -26,6 +26,36 @@ main{
     display: flex;
     justify-content: left;
     text-align: left;
+    padding: 10px;
+}
+
+.header__txt{
+    position: relative;
+    right: 70px;
+}
+
+.header__txt h3{
+    width: 133px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header__txt p{
+    font-size: 13px;
+    width: 136px;
+    height: 17px;
+    color: #080613;
+}
+
+.header__image--img{
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    position: relative;
+    top: 20px;
+    left: 55px;
+    /* padding: 10px; */
 }
 
 .cards__card{
@@ -34,7 +64,9 @@ main{
     height: 364px;
     border-radius: 16px;
     background-size: cover;
-    color: #fff;
+    /* color: #fff; */
+    color: #F8F7F8;
+    padding: 10px;
 }
 
 .cards__card--card-1{
@@ -56,6 +88,24 @@ main{
 a{
     text-decoration: none;
     color: #F8F7F8;
+    position: relative;
+    top: 230px;
+}
+
+a h3{
+    font-size: 23px;
+    font-weight: bold;
+    /* width: 166px; */
+    /* height: 52px; */
+}
+
+.a__header{
+    width: 166px;
+    height: 52px;
+}
+
+a p{
+    font-size: 12px;
 }
 
 .header__btn{
@@ -65,8 +115,8 @@ a{
     border-radius: 100px;
     background: #FF4242;
     padding: 20px;
-    position: absolute;
-    top: 1850px;
+    position: relative;
+    top: 30px;
 }
 
 input{
@@ -74,5 +124,5 @@ input{
     height: 50px;
     background: #F8F7F8;
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px;
 }

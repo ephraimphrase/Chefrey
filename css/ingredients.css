@@ -72,21 +72,21 @@ main{
 .bxs-left-arrow-alt{
     font-size: 50px;
     color: #FF4242;
-    position: relative;
-    top: 30px;
-    right: 50%;
+    position: absolute;
+    top: 80px;
+    right: 93%;
     width: 16px;
     height: 16px;
 }
 
 .bxs-share-alt{
-    position: relative;
-    left: 40%;
-    top: 17px;
+    position: absolute;
+    left: 85%;
+    top: 85px;
     background: #FF4242;
     color: #F8F7F8;
     border-radius: 15px;
-    font-size: 13px;
+    font-size: 23px;
     width: 23px;
     height: 23px;
     padding: 5px;
