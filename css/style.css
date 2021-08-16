@@ -47,6 +47,20 @@ a{
     color: #fff;
 }
 
+.links{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.login{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
 .btn{
     width: 200px;
     /* height: 55px; */
@@ -57,9 +71,15 @@ a{
     justify-content: space-evenly;
     border-radius: 100px;
     background: #FF4242;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-size: 20px;
+}
+
+span{
+    position: relative;
+    top: 10px;
+    /* right: 10px; */
 }
 
 i{
@@ -67,6 +87,6 @@ i{
     color: #FF4242;
     width: 45px;
     height: 45px;
-    font-size: 40px;
+    font-size: 45px;
     border-radius: 28px;
 }

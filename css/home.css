@@ -89,7 +89,7 @@ a{
     text-decoration: none;
     color: #F8F7F8;
     position: relative;
-    top: 230px;
+    top: 170px;
 }
 
 a h3{
@@ -108,15 +108,32 @@ a p{
     font-size: 12px;
 }
 
-.header__btn{
+.btn{
     width: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 100px;
     background: #FF4242;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     top: 30px;
+    text-align: center;
+}
+
+span{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.bx-refresh{
+    background: #fff;
+    color: #FF4242;
+    width: 45px;
+    height: 45px;
+    font-size: 45px;
+    border-radius: 28px;
+    /* padding: 10px; */
 }
 
 input{
@@ -126,3 +143,29 @@ input{
     border-radius: 25px;
     padding: 10px;
 }
+
+
+.bxs-bookmark-minus{
+    color: #FF4242;
+    width: 41px;
+    height: 44px;
+    background: #ffff;
+    border-radius: 8px;
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+}
+
+.bx-bookmark-minus{
+    color: #FF4242;
+    width: 41px;
+    height: 44px;
+    background: #ffff;
+    border-radius: 8px;
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+}
+

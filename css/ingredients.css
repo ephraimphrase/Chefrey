@@ -47,6 +47,23 @@ main{
     height: 48px;
 }
 
+.description__text{
+    display: flex;
+}
+
+.bx-bookmark-minus{
+    color: #FF4242;
+    width: 41px;
+    height: 44px;
+    background: #ffff;
+    border-radius: 8px;
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 130px;
+}
+
 .ingredients__item{
     display: flex;
     justify-content: space-between;
